@@ -4,9 +4,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "preact build",
-    "serve": "SET NODE_OPTIONS=--openssl-legacy-provider sirv build --cors --single",
-    "dev": "preact watch",
+    "serve": "webpack serve",
     "lint": "eslint src",
     "test": "jest"
   },
